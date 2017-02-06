@@ -1,3 +1,3 @@
-# CursoIngresoJS
+# CursoDeQK
 Curso de ingreso con JavaScript
-dsasadsadsadasdsad
+kasjkaljalkja
