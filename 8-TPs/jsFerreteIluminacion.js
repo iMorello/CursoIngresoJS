@@ -14,7 +14,7 @@ function CalcularPrecio ()
     var marca;
     var precio;
     var precioDescuento;
-    var iibb;
+    var iiBb;
     cantidad = document.getElementById('Cantidad').value;
     marca = document.getElementById('Marca').value;
     precio = 35;
@@ -50,10 +50,10 @@ function CalcularPrecio ()
     {
         document.getElementById('precioDescuento').value=parseInt((precio*cantidad)*0.95);
     }
-    else if(precioDescuento>'120')
+    else(precioDescuento > '120')
     {
-        iibb=parseInt(precioDescuento*1.1);
-        alert('Usted pagó' + ' ' + iibb + ' ' + 'de IIBB');
+        iiBb=parseInt(precioDescuento*1.1);
+        alert('Usted pagó ' + iiBb + ' de IIBB.');
     }   
 }
 
