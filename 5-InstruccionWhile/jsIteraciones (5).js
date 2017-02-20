@@ -1,11 +1,15 @@
 function Mostrar()
 {
     var sexo;
-    sexo = prompt("Ingrese F ó M.");
+    sexo = 'h';
     while(sexo!='F' && sexo!= 'M')
     {
-        alert('Ingrese F ó M.');
+        
         sexo = prompt("Ingrese F ó M.");
+        if(sexo==null)
+        {
+            break;
+        }
     }
 document.getElementById('Sexo').value=sexo;
 }
